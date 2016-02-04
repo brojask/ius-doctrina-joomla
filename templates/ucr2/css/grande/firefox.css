@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.pestana > div
+{
+	display:block;
+}
+
+div.pestana div div.pest_top
+{
+	position:relative;
+	top:68px;
+}
+
+div.pestana div div.pest_middle
+{
+	position:relative;
+	margin-top:68px;
+}
+
+div.pestana div div.pest_bottom
+{
+	position:relative;
+	margin-top:0px;
+}
+
+div.pestana ul
+{
+	margin-top:10px;
+}
+
+div.pestana ul li img 
+{
+	margin-left:-8px;
+}
+
+div.con_logo
+{
+	width:96%;
+	margin-left:15px;
+	padding-right:35px;
+}
+
+.barra_titulo .logo_sitio
+{
+	position:relative;
+	float:right;
+	margin-top:-63px;
+	left:170px;
+}

@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.eventos div.botones span
+{
+	padding-top:12px;
+}
+
+div.pestana
+{
+	text-align:center;
+	top:-68px;
+}
+
+div.pestana div
+{
+	margin-top:0px;	
+}
+
+.interno 
+{
+	margin-top:-130px;
+}
+
+div.sub_encabezado1 ul
+{
+	padding-top:42px;
+}

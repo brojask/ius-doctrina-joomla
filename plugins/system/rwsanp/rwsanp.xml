@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension 
+	version="1.7" 
+	type="plugin" 
+	group="system">
+	<name>Remove white space </name>
+	<author>Asianetpardaz.com</author>
+	<creationDate>May 2012</creationDate>
+	<copyright>Copyright (C) 2012 - 2013 Asianetpardaz. All rights reserved.</copyright>
+	<license>license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<authorEmail>info@asianetpardaz.com</authorEmail>
+	<authorUrl>www.asianetpardaz.com</authorUrl>
+	<version>1.8.0</version>
+	<description>Asia net Pardaz  - Remove white space from Joomla 1.6 and 1.7 - 2.5</description>
+	<files>
+		<filename plugin="rwsanp">rwsanp.php</filename>
+		<filename plugin="rwsanp">index.html</filename>
+	</files>
+</extension>

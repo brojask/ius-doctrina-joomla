@@ -1,0 +1,35 @@
+/* CSS */
+
+.interno 
+{
+	margin-top:-135px;
+}
+
+div.pestana > div
+{
+	display:block;
+}
+
+div.pestana div div.pest_top
+{
+	position:relative;
+	top:68px;
+}
+
+div.pestana div div.pest_middle
+{
+	position:relative;
+	margin-top:68px;
+}
+
+div.pestana div div.pest_bottom
+{
+	position:relative;
+	margin-top:0px;
+}
+
+div.pestana ul
+{
+	width:50px;
+	margin-top:10px;
+}

@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.pestana
+{
+	text-align:center;
+	padding-top:58px;
+	vertical-align:top;
+}
+
+div.pestana div
+{
+	margin-top:0px;	
+}
+
+div.pestana ul li img
+{
+	margin-left:-10px;
+}
+
+div.encabezado
+{	
+	width:100%;
+}
+
+div.mas_noticias_cont
+{
+	width:100%;
+}
+
+div.enlace_interes div.texto
+{
+	height:60px;
+}
+
+div.sub_encabezado2 div.search
+{
+	margin-right:0px;
+}
+
+div.sub_encabezado2 div.search input.button
+{
+	margin-top:2px;
+}
+
+div.sub_encabezado2 div.mod-languages
+{
+	margin:25px 25px 0 5px;
+	text-align:right;
+}
+
+div.sobre_sombra
+{
+	position:relative;	
+	display:block;
+	width:100%;
+	height:100%;
+}
+
+div.img_sombra
+{
+	width:104%;
+	height:100%;
+}
+
+div.img_sombra img
+{
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+
+div.sub_encabezado2 input.button
+{
+	margin-top:1px;
+}
+
+div.sub_encabezado2 div.rawimages
+{
+	margin-right:20px;
+}
+
+a.date-picker-control:link,
+a.date-picker-control:visited,
+a.date-picker-control:hover,
+a.date-picker-control:active,
+a.date-picker-control:focus
+{
+	position:absolute;
+	float:none;
+	left:60px;
+}

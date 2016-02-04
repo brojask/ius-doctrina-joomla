@@ -1,0 +1,21 @@
+Instrucciones de uso plantilla UCR_2:
+
+1- Si se quiere poner un banner grande de lado a lado de la plantilla (bajo el cintillo del título), se recomienda que seleccione "Dimensiones Fijas" en los parámetros de la plantilla, para que la interfaz se ajuste siempre al mismo tamaño. Con las dimensiones por defecto (930px de ancho) se puede utilizar un banner de 860px de ancho por unos 300px de alto (la altura puede variar). Si se usa un banner se recomienda que sólo se use en la portada del sitio, y que en esta no se activen módulos a la izquierda ni la derecha.
+
+2- Se puede también usar un banner grande, pero que vaya sólo del centro al lado derecho. Éste se pone en la posición "logo". Este banner no requiere que las dimensiones sean fijas, y se recomienda por sobre la opción del banner de lado a lado.
+
+3- Para poner un texto estilo "cita" a la derecha (como en algunas secciones del sitio de la UCR), cree un modulo HTML e incluya, como código HTML un texto que tenga las etiquetas siguientes:
+
+<div class="cita">
+<p><span class="comillas">“</span></p>
+<div>TEXTO DE LA CITA A REEMPLAZAR...<span class="comillas cierra">”</span></div>
+<p>AUTOR DE LA CITA</p>
+</div>
+
+4- En los parámetros de plantilla, la opción dimensiones "Grande" se podría utilizar si el promedio de resolución de usuario final crece en un futuro.
+
+5- Seleccione "Mostrar siempre ítemes en submenus" para que el menú izquierdo funcione como un acordeón. Verifique que la opción correspondiente en la plantilla esté habilitada.
+
+6- Algunas extensiones prácticas se pueden solicitar a la ODI (o descargarlas de internet), como SuperFish (para menú superior flotante), JoomFish para traducciones, JEvents para calendario, CBNews para presentar noticias destacadas, entre otras.
+
+7- El menú de la pestaña lateral derecha puede requerir que se cambie el alto si contiene más de 3 entradas (no debería tener menos que 3), para acomodar más enlaces; agregar aprox 20 por cada enlace después de 3. Los enlaces deben tener una imagen asociada.

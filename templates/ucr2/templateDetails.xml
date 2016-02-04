@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<install version="1.6" type="template">
+	<name>UCR 2</name>
+	<creationDate>27/08/2012</creationDate>
+	<author>Esteban Aguilar Barrantes - basada en diseno de Jorge Zeledon</author>
+	<authorEmail>esteban.aguilar@ucr.ac.cr</authorEmail>
+	<authorUrl>http://www.odi.ucr.ac.cr</authorUrl>
+	<copyright></copyright>
+	<license>GNU/GPL</license>
+	<version>2.24</version>
+	<description>Plantilla Sitios UCR ver. 2.24</description>
+	<files>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>params.ini</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>instrucciones.txt</filename>
+		<folder>css</folder>
+		<folder>imagenes</folder>
+		<folder>js</folder>
+	</files>
+	<positions>
+		<position>arriba</position>
+		<position>banner_principal</position>
+		<position>ruta</position>
+		<position>bajo_ruta</position>
+		<position>logo</position>
+		<position>titulo_izquierda_arriba</position>
+		<position>izquierda_arriba</position>
+		<position>izquierda_abajo</position>
+		<position>derecha</position>
+		<position>logo2</position>
+		<position>arriba_izquierda</position>
+		<position>arriba_centro</position>
+		<position>arriba_derecha</position>
+		<position>centro_arriba</position>
+		<position>centro_abajo</position>
+		<position>pestana</position>
+		<position>pie</position>
+		<position>pie_derecha</position>
+		<position>debug</position>
+		<position>syndicate</position>
+		<position>abajo_centro</position>
+		<position>abajo</position>
+		<position>left</position>
+		<position>right</position>
+		<position>position-5</position>
+		<position>top</position>
+	</positions>
+	<config>
+        <fields name="params">
+            <fieldset name="basic">
+				<field name="dimensiones" type="list" default="mediano" label="Dimensiones de la plantilla" description="Dimensiones de acuerdo con la resolucion esperada en los navegadores cliente.">
+					<option value="mediano">Mediana</option>
+					<option value="grande">Grande</option>
+				</field>	
+				<field name="ancho_fijo" type="list" default="no" label="Dimensiones fijas" description="Permitir o no que el el recuadro se ensanche y encoja con la ventana del navegador.">
+					<option value="si">Si</option>
+					<option value="no">No</option>			
+				</field>
+				<field name="ancho" type="text" default="930" label="Ancho para dimensiones fijas" description="Si las dimensiones son fijas, ancho maximo posible para el recuadro." />
+				<field name="alto_pestana" type="text" default="0" label="Alto para la pestana lateral derecha" description="Si no caben las imágenes se puede aumentar el valor del alto." />
+				<field name="menu_acordeon" type="list" default="no" label="Menu de acordeon" description="Expandir y contraer menu en cejilla izquierda dinamicamente (requiere seleccionar 'Mostrar siempre los itemes en submenus ').">
+					<option value="si">Si</option>
+					<option value="no">No</option>			
+				</field>	
+                <field name="listas_estilo" type="list" default="no" label="Dar estilo a listas" description="Formatear las listas con bordes y colores predeterminados UCR.">
+					<option value="si">Si</option>
+					<option value="no">No</option>			
+				</field>
+                <field name="nombre_sitio_izquierda" type="list" default="si" label="Nombre sitio a la izquierda" description="Desplegar el nombre del sitio en el menú de la izquierda.">
+					<option value="si">Si</option>
+					<option value="no">No</option>			
+				</field>
+            </fieldset>
+        </fields>
+    </config>	
+</install>

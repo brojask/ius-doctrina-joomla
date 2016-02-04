@@ -1,0 +1,511 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* SuperFish General: */
+
+div.sub_encabezado1 ul ul 
+{
+	position:absolute;
+	padding-top:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-top:10px;
+}
+
+div.sub_encabezado1 ul ul li, div.sub_encabezado1 ul ul li.active, div.sub_encabezado1 ul ul li#current
+{
+	margin-left:0px;
+	padding-left:5px;
+	padding-right:5px;
+	margin-right:10px;
+	top:-10px;
+	background-image:none;
+	background:#ededed;
+	height:25px;
+}
+
+.sf-sub-indicator
+{
+	display:none;
+}
+
+.sf-menu a.sf-with-ul
+{
+	padding-right:0px;
+}
+
+.sf-menu, .sub_encabezado1 .menu {
+	margin-bottom:	1em;
+	line-height:20px;
+}
+.sf-menu a {
+	border-left:	none;
+	border-top:		none;
+	padding: 		0px;
+	text-decoration:none;
+}
+.sf-menu > li a, .sf-menu > li a:visited  { /* visited pseudo selector so IE6 applies text colour*/
+	color:white;
+}
+
+.sf-menu > li li a, .sf-menu > li li a:visited  { 
+	color:#404040;
+}
+
+.sf-menu > li li { 
+	border-bottom:1px solid #999999;
+}
+
+.sf-menu > li li.first-child{ 
+	-moz-border-radius-topright:7px;
+	-webkit-border-top-right-radius:7px;
+	-o-border-top-right-radius:7px;
+	-khtml-border-top-right-radius:7px;
+	border-top-right-radius:7px;
+}
+
+.sf-menu > li li.last-child{ 
+	-moz-border-radius-bottomright:7px;
+	-webkit-border-bottom-right-radius:7px;
+	-o-border-bottom-right-radius:7px;
+	-khtml-border-bottom-right-radius:7px;
+	border-bottom-right-radius:7px;
+	-moz-border-radius-bottomleft:7px;
+	-webkit-border-bottom-left-radius:7px;
+	-o-border-bottom-left-radius:7px;
+	-khtml-border-bottom-left-radius:7px;	
+	border-bottom-left-radius:7px;
+	border-bottom:none;
+}
+
+.sf-menu li {
+	background:		#ededed;
+}
+
+.sf-menu > li a:focus, .sf-menu > li a:hover, .sf-menu > li a:active , .sf-menu > li#current a
+{
+	background:		none;
+	outline:		0;
+}
+
+.sf-menu > li:hover, .sf-menu > li.sfHover
+{
+	background: url(../../imagenes/separador_menu_top.gif) right no-repeat;
+}
+
+.sf-menu li li:hover, .sf-menu li li:hover a, div.sub_encabezado1 ul ul li#current:hover
+{
+	background:#999999;
+	color:white;
+	text-decoration:none;
+}
+
+.sf-menu li li:hover a, div.sub_encabezado1 ul ul li a:hover
+{
+	color:white;
+	text-decoration:none;
+}
+
+div.sub_encabezado1 ul ul li a
+{
+	color:#404040;
+}
+
+.sf-menu li li li, .sf-menu li li li:hover {
+	background:		#ededed;
+	color:#404040;
+}
+
+.sf-menu li li a, .sf-menu li li li a {
+	background:		#ededed;
+	color:#404040;
+}
+
+.sf-menu .sf-menu li li a, .sf-menu .sf-menu li li a:visited  { /* visited pseudo selector so IE6 applies text colour*/
+	color:#404040;
+}
+
+.sf-menu > li#current
+{
+	background-color:transparent;
+	color:white;
+	background:url(../../imagenes/separador_menu_top.gif) right no-repeat;
+}
+
+.sf-menu li .separator {
+	display: block;
+	border-left:	none;
+	border-top:		none;
+	padding: 		0;
+	text-decoration:none;
+}
+
+.sf-menu > li.active 
+{
+	display: inline;
+	list-style-type:disc;
+	position:relative;
+	background:url(../../imagenes/separador_menu_top.gif) right no-repeat;
+}
+
+div.columna_izquierda div.arriba div div div > div, div.columna_izquierda div.abajo div div div > div
+{	
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.cal_td_daysnames 
+{
+	background-color:#006598;
+	color:white;
+	background-image: url(../../imagenes/evback.jpg);
+}
+
+.mod_events_monthyear 
+{
+	background-image: url(../../imagenes/evback.jpg);
+	white-space:nowrap;
+}
+
+div.mod_events_link, .mod_events_monthyear a.mod_events_link, .mod_events_monthyear a.mod_events_link:visited, .mod_events_monthyear a.mod_events_link:visited 
+{ 
+	color:white;
+}
+
+.mod_events_td_dayoutofmonth 
+{ 
+	color:white;
+	background-color:#c9edff;
+}
+
+.mod_events_td_todaynoevents, .mod_events_td_todaywithevents
+{ 
+	color:#e57b4a;
+	background-color:#3c9ccd;
+	font-weight:bold;
+}
+
+.mod_events_td_todaynoevents a.mod_events_daylink:link, .mod_events_td_todaynoevents a.mod_events_daylink:visited
+{ 
+	color:white;
+	font-weight:bold;
+}
+
+.mod_events_td_todaywithevents a.mod_events_daylink:link , .mod_events_td_todaywithevents a.mod_events_daylink:visited
+{ 
+	color:#e57b4a;
+	font-weight:bold;
+}
+
+.cal_td_daysnoevents 
+{ 
+	background-color:#dcf0fa;
+}
+
+#featured
+{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+}
+
+/*  Fin Superfish General */
+
+div.sub_encabezado1 ul ul 
+{
+	position:absolute;
+	padding-top:0px;
+	margin-bottom:0px;	
+	margin-top:10px;
+}
+
+div.sub_encabezado1 ul ul ul
+{
+	margin-left:10px;
+}
+
+div.sub_encabezado1 ul ul li, div.sub_encabezado1 ul li ul li, div.sub_encabezado1 ul ul li.active, div.sub_encabezado1 ul ul li#current
+{
+	margin-left:0px;
+	padding-left:5px;
+	padding-right:5px;
+	margin-right:10px;
+	top:-10px;
+	background-image:none;
+	background:#ededed;
+	height:25px;
+}
+
+div.sub_encabezado1 .sf-sub-indicator
+{
+	display:none;
+}
+
+div.sub_encabezado1 .jt-menu a.sf-with-ul
+{
+	padding-right:0px;
+}
+
+div.sub_encabezado1 .jt-menu, .sub_encabezado1 .menu {
+	margin-bottom:	1em;
+	line-height:20px;
+}
+div.sub_encabezado1 .jt-menu a {
+	border-left:	none;
+	border-top:		none;
+	padding: 		0px;
+	text-decoration:none;
+}
+div.sub_encabezado1 .jt-menu > li a, div.sub_encabezado1 .jt-menu > li a:visited  { /* visited pseudo selector so IE6 applies text colour*/
+	color:white;
+}
+
+div.sub_encabezado1 .jt-menu > li li a, div.sub_encabezado1 .jt-menu > li li a:visited  { 
+	color:#404040;
+}
+
+div.sub_encabezado1 .jt-menu > li li { 
+	border-bottom:1px solid #999999;
+}
+
+div.sub_encabezado1 .jt-menu > li li:first-child{ 
+	-moz-border-radius-topright:7px;
+	-webkit-border-top-right-radius:7px;
+	-o-border-top-right-radius:7px;
+	-khtml-border-top-right-radius:7px;
+	border-top-right-radius:7px;
+}
+
+div.sub_encabezado1 .jt-menu > li li:last-child{ 
+	-moz-border-radius-bottomright:7px;
+	-webkit-border-bottom-right-radius:7px;
+	-o-border-bottom-right-radius:7px;
+	-khtml-border-bottom-right-radius:7px;
+	border-bottom-right-radius:7px;
+	-moz-border-radius-bottomleft:7px;
+	-webkit-border-bottom-left-radius:7px;
+	-o-border-bottom-left-radius:7px;
+	-khtml-border-bottom-left-radius:7px;	
+	border-bottom-left-radius:7px;
+	border-bottom:none;
+}
+
+div.sub_encabezado1 .jt-menu li:hover, div.sub_encabezado1 .jt-menu li.sfHover,
+div.sub_encabezado1 .jt-menu a:focus, div.sub_encabezado1 .jt-menu a:hover, .jt-menu a:active {
+	background:		#ededed;
+	outline:		0;
+}
+
+div.sub_encabezado1 .jt-menu > li a:focus, div.sub_encabezado1 .jt-menu > li a:hover, div.sub_encabezado1 .jt-menu > li a:active , div.sub_encabezado1 .jt-menu > li#current a
+{
+	background:		none;
+	outline:		0;
+}
+
+div.sub_encabezado1 .jt-menu > li:hover, div.sub_encabezado1 .jt-menu > li:active, div.sub_encabezado1 .jt-menu > li.sfHover
+{
+	background: url(../../imagenes/separador_menu_top.gif) right no-repeat;
+}
+
+div.sub_encabezado1 .jt-menu li li:hover, div.sub_encabezado1 .jt-menu li li:hover > a
+{
+	background:#999999;
+	color:white;
+	text-decoration:none;
+}
+
+div.sub_encabezado1 .jt-menu li li:hover ul a
+{
+	color:#404040;
+}
+
+div.sub_encabezado1 .jt-menu li li:hover a, div.sub_encabezado1 ul ul li a:hover
+{
+	color:white;
+	text-decoration:none;
+}
+
+div.sub_encabezado1 ul ul li a
+{
+	color:#404040;
+}
+
+div.sub_encabezado1 .jt-menu li li li, div.sub_encabezado1 .jt-menu li li li:hover {
+	background:		#ededed;
+	color:#404040;
+}
+
+div.sub_encabezado1 .jt-menu li li a, div.sub_encabezado1 .jt-menu li li li a {
+	background:		#ededed;
+	color:#404040;
+}
+
+div.sub_encabezado1 .jt-menu .jt-menu li li a, div.sub_encabezado1 .jt-menu .jt-menu li li a:visited  { /* visited pseudo selector so IE6 applies text colour*/
+	color:#404040;
+}
+
+div.sub_encabezado1 .jt-menu > li#current
+{
+	background-color:transparent;
+	color:white;
+	background:url(../../imagenes/separador_menu_top.gif) right no-repeat;
+}
+
+div.sub_encabezado1 .jt-menu li .separator {
+	display: block;
+	border-left:	none;
+	border-top:		none;
+	padding: 		0;
+	text-decoration:none;
+}
+
+div.sub_encabezado1 .jt-menu > li.active 
+{
+	display: inline;
+	list-style-type:disc;
+	position:relative;
+	background:url(../../imagenes/separador_menu_top.gif) right no-repeat;
+}
+
+div.columna_izquierda div.arriba div div div > div, div.columna_izquierda div.abajo div div div > div
+{	
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.cal_td_daysnames 
+{
+	background-color:#006598;
+	color:white;
+	background-image: url(../../imagenes/evback.jpg);
+}
+
+.mod_events_monthyear 
+{
+	background-image: url(../../imagenes/evback.jpg);
+	white-space:nowrap;
+}
+
+div.mod_events_link, .mod_events_monthyear a.mod_events_link, .mod_events_monthyear a.mod_events_link:visited, .mod_events_monthyear a.mod_events_link:visited 
+{ 
+	color:white;
+}
+
+.mod_events_td_dayoutofmonth 
+{ 
+	color:white;
+	background-color:#c9edff;
+}
+
+.mod_events_td_todaynoevents, .mod_events_td_todaywithevents
+{ 
+	color:#e57b4a;
+	background-color:#3c9ccd;
+	font-weight:bold;
+}
+
+.mod_events_td_todaynoevents a.mod_events_daylink:link, .mod_events_td_todaynoevents a.mod_events_daylink:visited
+{ 
+	color:white;
+	font-weight:bold;
+}
+
+.mod_events_td_todaywithevents a.mod_events_daylink:link , .mod_events_td_todaywithevents a.mod_events_daylink:visited
+{ 
+	color:#e57b4a;
+	font-weight:bold;
+}
+
+.cal_td_daysnoevents 
+{ 
+	background-color:#dcf0fa;
+}
+
+#featured
+{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+}
+
+#slideshow
+{
+	background-image:none;
+	background-color:white;
+	width:600px;
+	padding:10px;
+	bottom:default;
+	padding-top:0px;
+}
+
+#slideshow .slides h2
+{
+	color:#8d8c8c;
+}
+
+#slideshow .slides-nav
+{
+	border-top-color:#252525;
+}
+
+#slideshow .slides-nav li
+{
+	border-top-color:#252525;
+	border-left-color:#252525;
+	border-right-color:#252525;
+	border-bottom-color:#252525;
+	background-color:white;
+}
+
+#slideshow .slides-nav li a
+{
+	color:#252525;
+}
+
+#slideshow ul li.on
+{
+	border-top-color:#252525;
+	border-left-color:#252525;
+	border-right-color:#252525;
+	border-bottom-color:#252525;
+}
+
+#slideshow ul li.on a
+{
+	color:#ffffff;
+}
+
+.columna_principal .jt-menu
+{
+	clear:both;
+	width:100%;
+	display:block;
+}
+
+.jt-menu span.separator:hover
+{
+	cursor:pointer;
+	cursor:hand;
+}
+
+.lof-ass .lof-css3, .lof-ass .lof-css3 .preload
+{
+	box-shadow: 0px 0px 0px #fff;
+}
+
+.lof-ass .lof-description
+{
+	height:70px;
+	width:445px;
+	left:0px;
+}
+
+.lof-ass .lof-css3 .lof-description
+{
+	box-shadow: 0px 0px 2px #999999;
+}
+
+.lof-ass .preload
+{
+	z-index:0;
+}
